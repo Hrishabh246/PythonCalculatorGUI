@@ -1,1 +1,1 @@
-git remote add origin https://github.com/Hrishabh246/PythonCalculatorGUI.git
+git remote add cal https://github.com/Hrishabh246/PythonCalculatorGUI.git
