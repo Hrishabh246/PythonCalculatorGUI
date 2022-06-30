@@ -1,6 +1,8 @@
-import PySimpleGUI as pg
-#we wil do it  after class idk what i just did 
-print("hello")
-print(pg)# let see is they auto save 
-# testing again 
-print("we wil make some branch")#lets add somethign which may be we want or not IDK 
+import PySimpleGUI as sg#import PySimpleGui
+# print(sg)#Testing if module has been loaded in my Virtual environment
+layout = [ [sg.Text("Hello"), sg.Button("OK")],[sg.Button("Cancel")]]
+window =sg.Window("calculator", layout)
+event,value = window.read()
+# print(event,value)
+window.close()
+
