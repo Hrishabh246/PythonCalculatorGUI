@@ -18,7 +18,7 @@ while True:
     match event:
         case sg.WIN_CLOSED: break
         case "Add": sg.popup(f"Your Answer Is {add(int(value[0]),int(value[1]))}",
-                             auto_close=True, auto_close_duration=3, title="This is your Answer")  # print(add(int(value[0]),int(value[1])))
+                             auto_close=True, auto_close_duration=2, title="This is your Answer")  # print(add(int(value[0]),int(value[1])))
 
 
 window.close()
